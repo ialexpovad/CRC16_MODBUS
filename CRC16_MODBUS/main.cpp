@@ -1,4 +1,5 @@
 #include "common.h"
+//#include "../test/tset.h"
 
 static void entity()
 {
@@ -35,9 +36,9 @@ static void entity()
 	else { std::cout << "Checksums don't match." << std::endl; }
 }
 
-int main()
-{
+int main(int argc, char** argv) {
 	entity();
 	std::cin.get();
+	return EXIT_SUCCESS;
 }
-   
+

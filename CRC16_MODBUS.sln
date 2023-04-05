@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CRC16_MODBUS", "CRC16_MODBUS\CRC16_MODBUS.vcxproj", "{385EEA32-84FA-4087-B932-F8C9F3BCF150}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_crc16modbus", "test_crc16modbus\test_crc16modbus.vcxproj", "{7515AF0A-3647-474C-9CB2-17D0F081ACC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{385EEA32-84FA-4087-B932-F8C9F3BCF150}.Release|x64.Build.0 = Release|x64
 		{385EEA32-84FA-4087-B932-F8C9F3BCF150}.Release|x86.ActiveCfg = Release|Win32
 		{385EEA32-84FA-4087-B932-F8C9F3BCF150}.Release|x86.Build.0 = Release|Win32
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Debug|x64.ActiveCfg = Debug|x64
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Debug|x64.Build.0 = Debug|x64
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Debug|x86.Build.0 = Debug|Win32
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Release|x64.ActiveCfg = Release|x64
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Release|x64.Build.0 = Release|x64
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Release|x86.ActiveCfg = Release|Win32
+		{7515AF0A-3647-474C-9CB2-17D0F081ACC2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
